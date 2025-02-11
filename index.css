@@ -1,0 +1,58 @@
+/* CSS Reset */
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.main-container{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+.card{
+    position: absolute;
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    /* background-color: red; */
+}
+
+.front-card, .back-card{
+    border-radius: 30px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+}
+.front-card{
+    background-color: blue;
+}
+.back-card{
+    /* border: 2px solid red; */
+    transform: rotateY(180deg);
+    background-color: blueviolet;
+}
