@@ -56,3 +56,37 @@ body{
     transform: rotateY(180deg);
     background-color: blueviolet;
 }
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    width: 7%;
+    border: 1px solid brown;
+    margin: 1.5rem;
+}
+
+button{
+    border-radius: 17px;
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        height: 70vh;
+        width: 60%;
+    }
+
+    .btn-div {
+        height: 10%;
+        width: 30%;
+    }
+
+    button {
+        width: 90%;
+        height: 90%;
+    }
+}
