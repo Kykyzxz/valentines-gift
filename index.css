@@ -74,12 +74,11 @@ button{
     border: 2px solid black;
 }
 
-@media (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 600px) {
     .main-container {
         height: 70vh;
-        width: 60%;
+        width: 75%;
     }
-
     .btn-div {
         height: 10%;
         width: 30%;
