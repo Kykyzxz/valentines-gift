@@ -132,7 +132,7 @@ button:active{
 }
 @media (max-width: 600px) {
     .front-card, .back-card {
-        font-size: 0.8rem;
+        font-size: 1.22rem;
     }
     .main-container {
         height: 70vh;
@@ -146,5 +146,10 @@ button:active{
     button {
         width: 90%;
         height: 90%;
+    }
+}
+@media (max-width: 400px) {
+    .front-card, .back-card {
+        font-size: 0.6rem;
     }
 }
