@@ -149,7 +149,10 @@ button:active{
     }
 }
 @media (max-width: 400px) {
-    .front-card, .back-card {
-        font-size: 0.6rem;
+    .front-card {
+        font-size: 1.1rem;
+    }
+    .back-card{
+        font-size: 0.7rem;
     }
 }
