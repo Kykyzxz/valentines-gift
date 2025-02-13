@@ -127,7 +127,9 @@ button{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
-
+button:active{
+    transform: translateY(2px);
+}
 @media (max-width: 600px) {
     .front-card, .back-card {
         font-size: 1.22rem;
